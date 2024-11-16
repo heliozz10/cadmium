@@ -40,7 +40,8 @@ export default function AppealFormSection() {
                   type="text"
                   name="Vehicle Number Input"
                   placeholder={`Vehicle number: `}
-                  className="w-[70%] gap-4 rounded-[10px] pr-2"
+                  className="w-[70%] rounded-[10px] pr-2"
+                  color="black"
                 />
               </div>
               <Input

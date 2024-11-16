@@ -38,8 +38,6 @@ public class ApiController {
         );
         return ResponseEntity.ok(violations);
     }
-
-    @CrossOrigin(origins = "http://10.27.212.138")
     @PostMapping("/add-violation")
     public ResponseEntity<?> addViolation(@RequestBody ViolationDto violationDto) {
         Violation violation = violationRepo.save(new Violation(violationDto.getCarRegistrationId(), new Date(), violationDto.getLocation()));

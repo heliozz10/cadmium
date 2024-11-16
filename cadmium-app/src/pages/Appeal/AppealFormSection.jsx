@@ -37,26 +37,10 @@ export default function AppealFormSection() {
               <div className="flex flex-col items-start gap-[34px] self-stretch">
                 <Input
                   shape="round"
-                  type="number"
+                  type="text"
                   name="Vehicle Number Input"
                   placeholder={`Vehicle number: `}
-                  suffix={
-                    <div className="flex h-[50px] w-[300px] items-center justify-center rounded-[10px] bg-gray-100">
-                      <Img
-                        src="images/img_license_plate_1.png"
-                        alt="License-plate 1"
-                        className="h-[50px] w-[50px] rounded-[10px] bg-gray-100 object-cover pl-[34px]"
-                      />
-                    </div>
-                  }
-                  className="w-[70%] gap-4 rounded-[10px]"
-                />
-                <Input
-                  shape="round"
-                  type="password"
-                  name="Reason Input"
-                  placeholder={`Reason:`}
-                  className="w-[70%] rounded-[10px] pr-2"
+                  className="w-[70%] gap-4 rounded-[10px] pr-2"
                 />
               </div>
               <Input

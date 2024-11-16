@@ -30,14 +30,14 @@ const Input = React.forwardRef(
       shape,
       variant = "fill",
       size = "xs",
-      color = "gray_900_01",
+      color = "gray_800",
       ...restProps
     },
     ref,
   ) => {
     return (
       <label
-        className={`${className} flex items-center justify-center cursor-text text-gray-100 text-[24px] font-medium bg-gray-900_01 rounded-[10px]  ${shape && shapes[shape]} ${variant && (variants[variant]?.[color] || variants[variant])} ${size && sizes[size]}`}
+        className={`${className} flex items-center justify-center cursor-text text-gray-800 text-[24px] font-medium bg-gray-800 rounded-[10px]  ${shape && shapes[shape]} ${variant && (variants[variant]?.[color] || variants[variant])} ${size && sizes[size]}`}
       >
         {!!label && label}
         {!!prefix && prefix}

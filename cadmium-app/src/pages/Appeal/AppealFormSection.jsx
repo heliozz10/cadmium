@@ -46,7 +46,7 @@ export default function AppealFormSection() {
               <Input
                 size="sm"
                 shape="round"
-                type="password"
+                type="text"
                 name="Comment Input"
                 placeholder={`Comment:`}
                 className="w-[70%] rounded-[10px] px-1.5"
